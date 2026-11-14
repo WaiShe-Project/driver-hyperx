@@ -1,0 +1,38 @@
+[[device]]
+model = "cloud-iii-wireless"
+name = "HyperX Cloud III Wireless"
+brand = "HyperX"
+kind = "headset"
+
+  [[device.endpoint]]
+  transport = "receiver"
+  product_id = 0x0FCC
+
+  [[device.verification]]
+  capability = "battery.level"
+  transport = "receiver"
+  level = "verified"
+  verified_by = "icew1ndy"
+  verified_on = "2026-11-14"
+
+  [[device.verification]]
+  capability = "battery.charging"
+  transport = "receiver"
+  level = "verified"
+  verified_by = "icew1ndy"
+  verified_on = "2026-11-14"
+  note = "仅验证了“未充电”；充电中与已充满的取值未测"
+
+  [[device.verification]]
+  capability = "link.state"
+  transport = "receiver"
+  level = "verified"
+  verified_by = "icew1ndy"
+  verified_on = "2026-11-14"
+
+  [[device.verification]]
+  capability = "headset.mic_mute"
+  transport = "receiver"
+  level = "verified"
+  verified_by = "icew1ndy"
+  verified_on = "2026-11-14"

@@ -1,0 +1,14 @@
+[driver]
+id = "hyperx"
+name = "HyperX"
+version = "0.1.0"
+api = "0.1"
+license = "MIT"
+repository = "https://github.com/WaiShe-Project/driver-hyperx"
+description = "HyperX 无线耳机：电量、充电、连接、麦克风静音状态"
+
+# Cloud III Wireless receiver control collection (verified in M0 on 03F0:0FCC).
+[[match]]
+vendor_id = 0x03F0
+product_ids = [0x0FCC]
+usage_page = 0xFF13
