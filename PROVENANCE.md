@@ -11,9 +11,10 @@
 
 | 来源 | 许可证 | 状态 | 使用方式 | 涉及文件 | 来源版本 |
 | --- | --- | --- | --- | --- | --- |
-| [HyperBatteryMonitor](https://github.com/davidsantanaalves/HyperBatteryMonitor) | MIT | 已用于取得一个接收器 ID 与功能支持情况，尚未引入代码 | 仅参考：README | `docs/cloud-iii-wireless.md` | 2.4.1，2026-11-14 读取 |
-| [HaloBattery](https://github.com/HeyOkay/HaloBattery) | 未核对 | 已用于取得接收器 ID 与协议线索，尚未引入代码 | 仅参考：`docs/protocols.md` | `docs/cloud-iii-wireless.md` | 主分支，2026-11-14 读取 |
+| [HyperBatteryMonitor](https://github.com/davidsantanaalves/HyperBatteryMonitor) | MIT | 协议事实已用于实机验证，尚未引入代码 | 仅参考：`Devices/Cloud3WirelessAlternateReceiverDevice.cs` 的报告 ID `0x66`、查询选择符 `89`/`8A`/`86`、通知选择符 `0D`/`0C`/`0A` 与应答解析；`Hid/HidConnection.cs` 的输出报告写法；README 的接收器 ID 与功能支持 | `docs/cloud-iii-wireless.md` | 主分支（树 `ee92f174`），2026-11-14 读取 |
+| [HaloBattery](https://github.com/HeyOkay/HaloBattery) | 未核对 | 仅用于接收器 ID 线索，尚未引入代码 | 仅参考：`docs/protocols.md` | `docs/cloud-iii-wireless.md` | 主分支，2026-11-14 读取 |
 | [HyperHeadset](https://github.com/LennardKittner/HyperHeadset) | 未核对 | 未直接读取。HaloBattery 文档称其 Cloud III Wireless 条目取自该项目 | — | — | — |
+| 本项目抓包 | — | 已记录 | Cloud III Wireless，接收器 `03F0:0FCC`，Windows 11。选择符 `07`、`02`、`0B`、`0F` 只来自此处 | `captures/cloud-iii-wireless-0fcc-2026-11-14.md` | 2026-11-14 |
 
 ## 注意
 
